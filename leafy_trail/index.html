@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leafy-Trail</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <style>
+        .container{
+            width: 100vw;
+            height: 530px;
+            background: #030505;
+        }
+        span{
+            width:150px;
+            height: 150px;
+            position: absolute;
+            border-radius: 800px 0;
+            margin-left: 553px;
+            margin-top: 80px;
+        }
+        #a{
+            background: hsla(176, 82%, 11%, 0.541);
+            
+            z-index: 1;
+            /* left:100px; */
+            transform: rotate(10deg);
+            transform-origin: left bottom;
+        }
+        #b{
+            background: hsla(177, 44%, 18%, 0.557);
+            
+            z-index: 2;
+            transform: rotate(30deg);
+            transform-origin: left bottom;
+            
+          
+        }
+        #c{
+            background: rgba(153, 130, 53, 0.548);
+           
+            z-index: 3;
+            transform: rotate(50deg);
+            transform-origin: left bottom;
+        } 
+        #d{
+            background: rgba(243, 173, 60, 0.548);
+           
+            z-index: 4;
+            transform: rotate(70deg);
+            transform-origin: left bottom;
+        }
+        #e{
+            background: rgba(245, 220, 2, 0.548);
+           
+            z-index: 5;
+            transform: rotate(90deg);
+            transform-origin: left bottom;
+            
+        }
+        #f{
+            background: rgba(139, 68, 1, 0.548);
+           
+            z-index: 6;
+            transform: rotate(110deg);
+            transform-origin: left bottom;
+            
+        }
+        #g{
+            background: rgba(223, 109, 3, 0.548);
+           
+            z-index: 7;
+            transform: rotate(130deg);
+            transform-origin: left bottom;
+            
+        }
+        #h{
+            background: rgba(122, 36, 10, 0.548);
+           
+            z-index: 8;
+            transform: rotate(150deg);
+            transform-origin: left bottom;
+            
+        }
+        #i{
+            background: rgba(182, 29, 3, 0.548);
+           
+            z-index: 9;
+            transform: rotate(170deg);
+            transform-origin: left bottom;
+            
+        }
+        #j{
+            background: rgba(248, 31, 2, 0.548);
+           
+            z-index: 10;
+            transform: rotate(190deg);
+            transform-origin: left bottom;
+            
+        }
+        #k{
+            background: rgba(128, 2, 39, 0.548);
+           
+            z-index: 11;
+            transform: rotate(210deg);
+            transform-origin: left bottom;
+            
+        }
+        #l{
+            background: rgba(202, 5, 64, 0.548);
+           
+            z-index: 12;
+            transform: rotate(230deg);
+            transform-origin: left bottom;
+            
+        }
+        #m{
+            background: rgba(243, 11, 80, 0.548);
+           
+            z-index: 13;
+            transform: rotate(250deg);
+            transform-origin: left bottom;
+            
+        }
+        #n{
+            background: rgba(16, 131, 139, 0.548);
+           
+            z-index: 14;
+            transform: rotate(270deg);
+            transform-origin: left bottom;
+            
+        }
+        #o{
+            background: rgba(2, 112, 66, 0.548);
+           
+            z-index: 15;
+            transform: rotate(290deg);
+            transform-origin: left bottom;
+            
+        }
+        #p{
+            background: rgba(11, 247, 149, 0.548);
+           
+            z-index: 16;
+            transform: rotate(310deg);
+            transform-origin: left bottom;
+            
+        }
+        #q{
+            background: rgba(3, 70, 109, 0.548);
+           
+            z-index: 17;
+            transform: rotate(330deg);
+            transform-origin: left bottom;
+            
+        }
+        #r{
+            background: rgba(6, 131, 204, 0.548);
+           
+            z-index: 18;
+            transform: rotate(350deg);
+            transform-origin: left bottom;
+            
+        }
+        section{
+            width: 100vw;
+            height: 15%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.5);
+            font-family: 'Great Vibes', cursive;
+            margin-top: -96px;
+            background: #030505;
+            font-weight: lighter;
+            font-size: 20px;
+           
+        }
+        @media screen and (max-width: 900px){
+            span{
+            width:100px;
+            height: 100px;
+            position: absolute;
+            border-radius: 800px 0;
+            margin-left: 400px;
+            margin-top: 80px;
+        }
+        section{
+            margin-top: -226px;
+            font-size: 16px;
+        }
+        }
+        @media screen and (max-width: 540px){
+            span{
+            width:70px;
+            height: 70px;
+            position: absolute;
+            border-radius: 800px 0;
+            margin-left: 200px;
+            margin-top: 80px;
+        }
+        section{
+            margin-top: -300px;
+            font-size: 12px;
+        }
+        }
+         
+    </style>     
+</head>
+
+<body>
+    <div class="container">
+        <span id="a"></span>
+        <span id="b"></span>
+        <span id="c"></span>
+        <span id="d"></span>
+        <span id="e"></span>
+        <span id="f"></span>
+        <span id="g"></span>
+        <span id="h"></span>
+        <span id="i"></span>
+        <span id="j"></span>
+        <span id="k"></span>
+        <span id="l"></span>
+        <span id="m"></span>
+        <span id="n"></span>
+        <span id="o"></span>
+        <span id="p"></span>
+        <span id="q"></span>
+        <span id="r"></span>
+     
+         
+    </div>
+    <section>
+        <p class="para">
+            <h1><i class="fab fa-pagelines"></i> leafy trail <i class="fab fa-pagelines"></i></h2>
+         </p>
+    </section>
+   
+
+   
+</body>
+</html>
